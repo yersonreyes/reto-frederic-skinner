@@ -1,0 +1,4 @@
+.left{
+    inline-size: calc(100vw - 6.0rem);
+    position: relative;
+}

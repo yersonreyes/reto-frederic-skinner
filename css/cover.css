@@ -1,0 +1,10 @@
+.cover{
+    display: flex;
+    inline-size: 100vw;
+    background-image: linear-gradient(hsla(0,0%,7%,.5),hsla(0,0%,7%,.5)),url(../images/img-1.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat:no-repeat ;
+    background-attachment: fixed;
+   
+}

@@ -1,0 +1,66 @@
+.rigth{
+    position: fixed;
+    right: 0;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    inline-size: 6.75rem;
+    block-size: 100vh;
+    background: rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+}
+
+.button{
+    margin: 0;
+    padding: 0;
+    inline-size: 6.75rem;
+    block-size: 6.8rem;
+    background:var(--blue);
+    border: none;
+    cursor: pointer;
+}
+
+.button img{
+    block-size: 2rem;
+    inline-size: 2rem;
+}
+
+
+.date{
+    margin: 0;
+    padding: 0;
+    block-size: calc(100vh - 6.75rem);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    transform: translatex(2rem);
+}
+
+.date .div-line{
+    block-size: 1px;
+    inline-size: 1.3rem;
+    background-color: var(--grey);
+}
+
+.date .div-line-span{
+    display: flex;
+    align-items: center;
+    block-size: 3px;
+    inline-size: 2rem;
+    background-color: var(--white);
+}
+
+.date .div-line-span span{
+    transform: translatex(-2.3rem);
+}
+
+.opaciti8{
+    opacity: .8;
+}
+
+.opaciti3{
+    opacity: .3;
+}
+

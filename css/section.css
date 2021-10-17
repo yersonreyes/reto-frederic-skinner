@@ -1,0 +1,29 @@
+.section{
+    margin-inline-start: 11.435rem;
+    max-inline-size: 33.125rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.section h3{
+    margin: 0;
+    padding: 0;
+    margin-block-start: 7rem;
+    font: var(--font-title);
+}
+.section p{
+    margin: 0;
+    padding: 0;
+    margin-block-start: 3rem;
+    font: var(--font-body2);
+}
+
+.section-buton{
+    align-self: flex-start;
+    margin-block-start: .75rem;
+    text-decoration: none;
+    background: var(--blue);
+    color: var(--white);
+    padding-inline: 1.25rem;
+    padding-block: .5rem;
+}

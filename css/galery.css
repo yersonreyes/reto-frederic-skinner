@@ -1,0 +1,46 @@
+.galery{
+    margin-inline-start: 11.435rem;
+    margin-block-start: 4rem;
+    display: flex;
+}
+
+.galery-content{
+    position: relative;
+    block-size: 11.4375rem;
+    inline-size: 18.25rem ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.galery-content.img1{
+    background: url(../images/img-3.png);
+}
+.galery-content.img2{
+    background: url(../images/img-2.png);
+}
+.galery-content.img3{
+    background: url(../images/img-4.png);
+}
+
+
+.galery-content span{
+    position: absolute;
+    block-size: 11.4375rem;
+    inline-size: 18.25rem ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+    font: var(--font-body);
+    
+}
+
+.galery-content:hover> span{
+    bottom: 0;
+    block-size: 3.25rem;
+    inline-size: 18.25rem ;
+    transition: all .6s;
+}
